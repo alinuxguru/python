@@ -8,6 +8,9 @@ https://ascii.co.uk/art
 # Built in function
 https://docs.python.org/3/library/functions.html
   
+# pYTHON STYle GuiDE
+https://www.python.org/dev/peps/pep-0008/
+  
 
     
   
