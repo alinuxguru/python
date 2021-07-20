@@ -16,6 +16,8 @@ https://www.python.org/dev/peps/pep-0008/
 # Flow Chart
 https://app.diagrams.net/
   
+# learn from Google developer
+https://developers.google.com/edu/python/lists#for-and-in
   
 
     
