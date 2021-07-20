@@ -17,3 +17,8 @@ print(dirty_dozen[1][1]) ##Kale
 print(dirty_dozen[0][1]) ##Nectarines
 print(dirty_dozen[0][6]) #Pears
 print(dirty_dozen[1][4]) #Potatoes
+
+# The index of -1 refers to the last item, -2 to the second last item and so on.
+
+print(fruits[-1]) ## Pears
+print(vegetables[-3]) ##Tomatoes
