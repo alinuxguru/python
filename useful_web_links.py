@@ -19,6 +19,10 @@ https://app.diagrams.net/
 # learn from Google developer
 https://developers.google.com/edu/python/lists#for-and-in
   
+# import statement 
+https://www.askpython.com/python/python-import-statement
+
+  
 
     
   
