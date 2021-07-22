@@ -10,3 +10,7 @@ def greet_with_name(name):
   print(f"How do you do {name}?")
 
 greet_with_name("Santhakumar")
+
+
+# parameter is name of arguments, here 'name' is a parameter
+# Arguments is actual one, Santhakumar is an argument
