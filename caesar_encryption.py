@@ -10,7 +10,12 @@ encoded = []
 def encrypt(text, shift):
   for z in text:
     indexx = (alphabet.index(z)) + shift
-    encoded.append(alphabet[indexx])
+    if indexx > 25:
+      indexx = indexx - 26
+      encoded.append(alphabet[indexx])
+    else:
+
+      encoded.append(alphabet[indexx])
 
   print(f"{''.join(encoded)}")
 
