@@ -33,3 +33,43 @@ print(programming_dictionary)
 for key in programming_dictionary:
   print(key)
   print(programming_dictionary[key])
+  
+#Nesting 
+dict1 = {key = [list],
+        key2 = {dict}
+        }
+
+#Nesting a list in a Dict
+travel_history = {
+  "India" = ["Chennai" ,"Delhi", "Mumbai"],
+  "Spain" = ["Madrid", "Bareclona", "Sevillia"],
+}
+  
+#Nesting a dictionary in a Dictionary
+travel_history = {
+  "India" = {"cities_visited" : ["Chennai" ,"Delhi", "Mumbai"], "total_visits" : 2},
+  "Spain" = {"cities_visited" : ["Madrid", "Bareclona", "Sevillia"], "total_visits" : 5},  
+}  
+
+#Nesting a dictionary in a list
+# a list travel_history has two items, which are dictionaries
+travel_history = [
+  {"country" : "India", "cities_visites" : ["Chennai" ,"Delhi", "Mumbai"], "total_visits" : 2},
+  {"country" : "Spain", "cities_visited" : ["Madrid", "Bareclona", "Sevillia"], "total_visits" : 5}, 
+]
+
+#Separate a aboce list to easy ready
+
+travel_history = [
+  {
+    "country" : "India", 
+    "cities_visites" : ["Chennai" ,"Delhi", "Mumbai"],
+    "total_visits" : 2
+  },
+  {
+    "country" : "Spain", 
+    "cities_visited" : ["Madrid", "Bareclona", "Sevillia"], 
+    "total_visits" : 5
+  }  
+]
+
