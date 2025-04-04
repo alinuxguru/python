@@ -1,4 +1,4 @@
-name: Run Number Search Script
+name: Print Two lists index
 
 on:
   push:
