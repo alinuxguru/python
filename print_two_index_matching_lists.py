@@ -1,4 +1,4 @@
-###
+### Print matching index values from two lists
 list1 = ["san", "sin", "pin", "tin"]
 list2 = [1, 2, 5, 6]
 
