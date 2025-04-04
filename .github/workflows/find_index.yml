@@ -24,4 +24,4 @@ jobs:
         pip install numpy  # Only if you're using numpy in your script
         
     - name: Run number search script
-      run: python find_indexes_for_number.py
+      run: echo "5" | python path/to/your_script.py
