@@ -23,5 +23,5 @@ jobs:
         python -m pip install --upgrade pip
         pip install numpy  # Only if you're using numpy in your script
         
-    - name: Run number search script
+    - name: Print Two list with respective index
       run: python print_two_index_matching_lists.py
